@@ -1,0 +1,49 @@
+header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+h1{
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    color: #22454f;
+    background-color: #28a6cc;
+    padding-left: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/*グローバルナビ(ul) ・横幅1200px ・縦幅40px*/
+header ul{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto ;
+    padding-left: 0px;
+}
+
+/*ナビ(li)
+・float:left使用 ・横幅300px ・縦幅40px ・文字色#62b4cc ・背景色#394548 ・文字センタリング*/
+header li{
+    width: 300px;
+    height: 40px;
+    color: #62b4cc;
+    background-color: #394548;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer{
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    background-color: #0b303b;
+    margin: 0 auto;
+    line-height: 50px;
+}
