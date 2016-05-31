@@ -27,7 +27,6 @@ header nav {
     background-color: #394548;
 }
 
-/*グローバルナビ(ul) ・横幅1200px ・縦幅40px*/
 header ul{
     width: 1200px;
     height: 40px;
@@ -35,8 +34,6 @@ header ul{
     padding: 0;
 }
 
-/*ナビ(li)
-・float:left使用 ・横幅300px ・縦幅40px ・文字色#62b4cc ・背景色#394548 ・文字センタリング*/
 header ul li{
     width: 300px;
     height: 40px;
@@ -52,4 +49,29 @@ footer{
     height: 50px;
     background-color: #0b303b;
     margin: 0 auto 0 auto;
+}
+
+footer nav {
+    width: 100%;
+    background-color: #394548;
+}
+
+/*グローバルナビ(ul) ・横幅1200px ・縦幅40px*/
+footer ul{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+/*ナビ(li)
+・float:left使用 ・横幅300px ・縦幅40px ・文字色#62b4cc ・背景色#394548 ・文字センタリング*/
+footer ul li{
+    width: 300px;
+    height: 50px;
+    color: #62b4cc;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
 }
